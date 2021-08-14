@@ -85,7 +85,7 @@ body {
   background: #2f303a; /* !!! Подложка !!!*/
 }
 
-.button-background {
+.button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
@@ -96,9 +96,9 @@ body {
   color: var(--White-color);
   background-color: var(--accent-color);
 }
-.button-background:hover,
-.button-background:focus {
-  color: var(--logo-black);
+.button:hover,
+.button:focus {
+  color: var(--main-text);
 }
 
 /* main */
@@ -184,3 +184,36 @@ body {
 }
 
 /* !!!!!!!!!! PORTFOLIO PAGE !!!!!!!!!! */
+
+/*Фильтр, навигация сайта*/
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+  background-color: var(--accent-color);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--White-color);
+}
+
+/* Main */
+.projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text);
+}
+
+.direction {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
