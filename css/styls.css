@@ -37,7 +37,7 @@ body {
 }
 
 .text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -86,7 +86,7 @@ body {
 }
 
 .button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   display: flex;
@@ -104,7 +104,7 @@ body {
 /* main */
 
 .main-heading {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -115,7 +115,7 @@ body {
 /* Gallery */
 
 .gallery-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -134,7 +134,7 @@ body {
   color: var(--main-text);
 }
 .specialization {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -145,7 +145,7 @@ body {
 /* footer */
 
 .footer-map .link {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -158,7 +158,7 @@ body {
 }
 
 .footer-mail .link {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -171,7 +171,7 @@ body {
 }
 
 .footer-tel .link {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -194,16 +194,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text);
-  background-color: var(--accent-color);
+  background-color: var(--main-text-color));
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--White-color);
+  background-color:var(--accent-color)
 }
 
 /* Main */
 .projects {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -211,7 +212,7 @@ body {
 }
 
 .direction {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
